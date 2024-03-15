@@ -152,7 +152,7 @@ try (InputStream inputStream = image.getInputStream()) {
         // Update the product with new data from the ProductDto
         product.setName(ProductDto.getName());
         product.setDescription(ProductDto.getDescription());
-        product.setName(ProductDto.getBrand());
+        product.setBrand(ProductDto.getBrand());
         product.setPrice(ProductDto.getPrice());
 
         // Save the updated product
